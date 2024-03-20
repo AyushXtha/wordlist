@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-38333237-12"></script>
+<script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-38333237-12');
+    </script>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CTF Challenge - Login</title>
+<link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/hack-font@3.3.0/build/web/hack-subset.css'>
+<link href="/css/mockterminal.css" rel="stylesheet">
+<script type="text/javascript" src="/js/mockterminal.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<script src="https://kit.fontawesome.com/6f9515028b.js" crossorigin="anonymous"></script>
+<link href="/css/app.css?x=1631437378" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&family=Roboto:wght@500&display=swap" rel="stylesheet">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+</head>
+<body style="font-family: 'Montserrat', sans-serif;">
+<nav class="navbar navbar-inverse" style="margin-bottom:0px;position: absolute;width: 100%;z-index:500">
+<div class="container">
+<div class="navbar-header" style="height: 90px">
+<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+<span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<a class="navbar-brand" href="/"><img src="/images/ctflogo-trans.png" height="60"></a>
+</div>
+<div id="navbar" class="collapse navbar-collapse">
+<ul class="nav navbar-nav">
+<li style="width:130px" class="text-center"><a href="/challenges"><img src="/images/challenges.png" height="40" style="margin-bottom:5px;border-radius: 360px"><br>Challenges</a></li>
+<li class="dropdown" style="width:130px">
+<a href="#" class="dropdown-toggle text-center" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i style="font-size:34px;margin-bottom:10px" class="fas fa-award"></i><br>Scoreboard <span class="caret"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/wall-of-fame">Wall Of Fame</a></li>
+<li><a href="/leaderboard">Leaderboard</a></li>
+<li><a href="/latest-flags">Latest Flags</a></li>
+</ul>
+</li>
+<li class="dropdown" style="width:130px">
+<a href="#" class="dropdown-toggle text-center" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i style="font-size:34px;margin-bottom:10px" class="fas fa-question-circle"></i><br>Info<span class="caret"></span></a>
+<ul class="dropdown-menu">
+<li><a href="/about">About</a></li>
+<li><a href="https://twitter.com/ctfchallenge" target="_blank">Contact</a></li>
+<li><a href="https://t.co/y7y7gnBXVR?amp=1" target="_blank">Discord Server</a></li>
+</ul>
+</li>
+</ul>
+ <ul class="nav navbar-nav navbar-right">
+<li class="text-center active"><a href="/login"><i style="font-size:34px;margin-bottom:10px" class="fas fa-sign-in-alt"></i><br>Login</a></li>
+<li class="text-center"><a href="/register"><i style="font-size:34px;margin-bottom:10px" class="fas fa-user-plus"></i><br>Register</a></li>
+</ul>
+</div>
+</div>
+</nav>
+<div class="container-fluid text-center" style="color:#FFF;padding:85px 0 0 0;margin:0;height:200px;background-color: #5fff5c;background:url(/images/heading-banner.png);background-position: 50% 100%">
+<h1>Login</h1>
+</div>
+<div class="container" style="padding-top:20px">
+<div class="row">
+<div class="col-sm-4 col-sm-offset-4">
+<form method="post" action="/login">
+<input type="hidden" name="csrf" value="OWRmOGQwN2U2MDA5MGQ1MTg2ZDk2MmM5YzA3MWM0MTgxYTVhMDdjMjE2OTJjNWVlZThkNzRkMTJmMWQ5MGVkNGViODA0NTQ3MzFmYjIyYTI4M2JhMWIzZTdjMTA4ODYxZWNhMWE4MjFiN2FkY2U4ZWY4MTczNzE3Nzk2NGYxMjM=">
+<div style="margin-top:40px"><input name="email" class="logininput form-control" placeholder="Email"></div style="margin-top:40px">
+<div style="margin-top: 20px"><input name="password" type="password" class="logininput form-control" placeholder="Password"></div>
+<div style="margin-top: 20px"><a href="/reset-password">Reset Password</a></div>
+<div style="margin-top: 20px"><a href="/register" class="btn btn-danger">Register Account</a><input type="submit" class="btn btn-success pull-right" value="Login"></div>
+</form>
+</div>
+</div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="/js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+/computeMetadata/v1/
+/latest/dynamic/instance-identity/document
+/latest/meta-data/
+/latest/meta-data/ami-id
+/latest/meta-data/hostname
+/latest/meta-data/iam/security-credentials/PhotonInstance
+/latest/meta-data/iam/security-credentials/[ROLE NAME]
+/latest/meta-data/iam/security-credentials/dummy
+/latest/meta-data/iam/security-credentials/s3access
+/latest/meta-data/public-keys/
+/latest/meta-data/public-keys/0/openssh-key
+/latest/meta-data/public-keys/[ID]/openssh-key
+/latest/meta-data/reservation-id
+/latest/user-data
+/latest/user-data/iam/security-credentials/[ROLE NAME]
+/metadata/instance/network/interface/0/ipv4/ipAddress/0/publicIpAddress?api-version=2017-04-02&format=text
+/metadata/instance?api-version=2017-04-02
+/metadata/v1.json
+/metadata/v1/
+/metadata/v1/hostname
+/metadata/v1/id
+/metadata/v1/interfaces/public/0/ipv6/address
+/metadata/v1/region
+/metadata/v1/user-data

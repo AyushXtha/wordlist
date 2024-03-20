@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+    <circle r="40" fill="red"></circle>
+    <script>alert(1)</script>
+</svg>

