@@ -1,10 +1,6 @@
-onafterprint
 d
-onwheel
 href
-src
-srcdoc
-style
+onafterprint
 onafterscriptexecute
 onanimationcancel
 onanimationend
@@ -16,6 +12,7 @@ onbeforecut
 onbeforeinput
 onbeforeprint
 onbeforescriptexecute
+onbeforetoggle
 onbeforeunload
 onbegin
 onblur
@@ -33,6 +30,7 @@ ondblclick
 ondrag
 ondragend
 ondragenter
+ondragexit
 ondragleave
 ondragover
 ondragstart
@@ -43,8 +41,10 @@ onended
 onerror
 onfinish
 onfocus
+onfocus
 onfocusin
 onfocusout
+onformdata
 onfullscreenchange
 onhashchange
 oninput
@@ -55,6 +55,7 @@ onkeyup
 onload
 onloadeddata
 onloadedmetadata
+onloadstart
 onmessage
 onmousedown
 onmouseenter
@@ -71,6 +72,7 @@ onpaste
 onpause
 onplay
 onplaying
+onpointercancel
 onpointerdown
 onpointerenter
 onpointerleave
@@ -96,6 +98,7 @@ onselectstart
 onshow
 onstart
 onsubmit
+onsuspend
 ontimeupdate
 ontoggle
 ontouchend
@@ -111,5 +114,14 @@ onvolumechange
 onwebkitanimationend
 onwebkitanimationiteration
 onwebkitanimationstart
+onwebkitmouseforcechanged
+onwebkitmouseforcedown
+onwebkitmouseforceup
+onwebkitmouseforcewillbegin
+onwebkitplaybacktargetavailabilitychanged
 onwebkittransitionend
+onwebkitwillrevealbottom
 onwheel
+src
+srcdoc
+style

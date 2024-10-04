@@ -1,4 +1,10 @@
+/cm2.pw
+?wsdl
+graphql/graphql?query
+servudaemon.in
+/https://cm2.pw
 !.gitignore
+nas
 !.htaccess
 !.htpasswd
 %2e%2e//google.com
@@ -117,6 +123,7 @@
 .bower.json
 .bowerrc
 .brackets.json
+defaults.env
 .browserslistrc
 .buckconfig
 .build
@@ -139,6 +146,7 @@
 .bzr/README
 .bzr/branch-format
 .bzrignore
+_vti_pvt/service.pwd
 .c9/
 .c9/metadata/environment/.env
 .c9revisions/
@@ -942,6 +950,7 @@
 .prettierrc.toml
 .prettierrc.yaml
 .preview/
+preview
 .priority.log
 .pro.user
 .procmailrc
@@ -4923,6 +4932,7 @@ dealeradmin
 debug
 debug-output.txt
 debug.cgi
+debug/vars
 debug.inc
 debug.log
 debug.php

