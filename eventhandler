@@ -1,5 +1,6 @@
 d
 href
+id
 onafterprint
 onafterscriptexecute
 onanimationcancel
@@ -17,11 +18,13 @@ onbeforeunload
 onbegin
 onblur
 onbounce
+oncancel
 oncanplay
 oncanplaythrough
 onchange
 onclick
 onclose
+oncontentvisibilityautostatechange
 oncontextmenu
 oncopy
 oncuechange
@@ -40,7 +43,6 @@ onend
 onended
 onerror
 onfinish
-onfocus
 onfocus
 onfocusin
 onfocusout
@@ -89,6 +91,7 @@ onreset
 onresize
 onscroll
 onscrollend
+onscrollsnapchange
 onsearch
 onseeked
 onseeking
@@ -111,14 +114,17 @@ ontransitionstart
 onunhandledrejection
 onunload
 onvolumechange
+onwaiting
 onwebkitanimationend
 onwebkitanimationiteration
 onwebkitanimationstart
+Gnwebkitfullscreenchange
 onwebkitmouseforcechanged
 onwebkitmouseforcedown
 onwebkitmouseforceup
 onwebkitmouseforcewillbegin
 onwebkitplaybacktargetavailabilitychanged
+onwebkitpresentationmodechanged
 onwebkittransitionend
 onwebkitwillrevealbottom
 onwheel

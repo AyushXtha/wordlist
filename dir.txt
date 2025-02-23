@@ -3896,6 +3896,11 @@ auth.rb
 auth.tar.gz
 auth.zip
 auth/
+auth/jwt
+auth/jwt/register
+auth-demo/register/classic
+auth-demo/register/modern
+auth/register
 auth/adm
 auth/admin
 auth/login
@@ -5188,6 +5193,7 @@ elfinder/
 elfinder/elfinder.php
 elm-stuff
 elmah.axd
+elmah
 email
 email.%EXT%
 email.htm
@@ -8366,6 +8372,7 @@ ssl/
 ssl_admin
 sslmgr
 ssodad
+sso
 sspadmin
 sswadmin
 st.php
@@ -9235,6 +9242,7 @@ wp-config-backup.txt
 wp-config-sample.php
 wp-config.inc
 wp-config.old
+wp-config.php.bk
 wp-config.php
 wp-config.php-backup
 wp-config.php.bak

