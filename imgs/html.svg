@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="200">
+  <foreignObject x="0" y="0" width="100%" height="100%">
+    <body xmlns="http://www.w3.org/1999/xhtml">
+      <div id="demo" style="font-size: 18px; color: green;">Click me!</div>
+      <script type="text/javascript">
+        document.getElementById("demo").textContent = "Hello from SVG JS!";
+      </script>
+    </body>
+  </foreignObject>
+</svg>
+
