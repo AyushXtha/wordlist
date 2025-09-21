@@ -11,6 +11,7 @@ onauxclick
 onbeforecopy
 onbeforecut
 onbeforeinput
+onbeforepaste
 onbeforeprint
 onbeforescriptexecute
 onbeforetoggle
@@ -24,6 +25,7 @@ oncanplaythrough
 onchange
 onclick
 onclose
+oncommand
 oncontentvisibilityautostatechange
 oncontextmenu
 oncopy
@@ -48,6 +50,9 @@ onfocusin
 onfocusout
 onformdata
 onfullscreenchange
+ongesturechange
+ongestureend
+ongesturestart
 onhashchange
 oninput
 oninvalid
@@ -58,6 +63,7 @@ onload
 onloadeddata
 onloadedmetadata
 onloadstart
+onlostpointercapture
 onmessage
 onmousedown
 onmouseenter
@@ -69,7 +75,9 @@ onmouseup
 onmousewheel
 onmozfullscreenchange
 onpagehide
+onpagereveal
 onpageshow
+onpageswap
 onpaste
 onpause
 onplay
@@ -92,7 +100,9 @@ onresize
 onscroll
 onscrollend
 onscrollsnapchange
+onscrollsnapchanging
 onsearch
+onsecuritypolicyviolation
 onseeked
 onseeking
 onselect
@@ -104,6 +114,7 @@ onsubmit
 onsuspend
 ontimeupdate
 ontoggle
+ontouchcancel
 ontouchend
 ontouchmove
 ontouchstart
@@ -118,10 +129,11 @@ onwaiting
 onwebkitanimationend
 onwebkitanimationiteration
 onwebkitanimationstart
-Gnwebkitfullscreenchange
+onwebkitfullscreenchange
 onwebkitmouseforcechanged
 onwebkitmouseforcedown
 onwebkitmouseforceup
+ongotpointercapture
 onwebkitmouseforcewillbegin
 onwebkitplaybacktargetavailabilitychanged
 onwebkitpresentationmodechanged
